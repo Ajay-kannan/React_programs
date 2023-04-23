@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(104, 104, 202);
+    color: white;
+    width: 100vw;
+}
+
+.App {
+  
+    background-color: rgb(50, 38, 154);
+    margin: 0 10vw;
+    height: 90vh;
+    border-radius: 20px;
+}
+#alltodo
+{
+    width:500px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    height: 300px ;
+    overflow-y : scroll;
+   margin:0 -300px 15px 15px;
+   padding-right:300px;
+    
+}
+
+#inputfield
+{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    margin: 50px;
+}
+
+#inputfield {
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    border: 2px soild black;
+}
+#delbutton
+{
+    color: white;
+    border: none;
+    background-color: darkred ;
+    font-size: larger;
+    border-radius: 0 10px 10px 0;
+}
+
+#input{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+}
+
+#todotext
+{
+    margin-left: 50px;
+    font-size: x-large;
+}
+
+#butsub
+{
+    height: 30px;
+    background-color: bisque;
+    border-radius: 2px;
+    margin-right: 50px;
+}
+
+
+#textvalue {
+    height: auto;
+    font-size: 20px;
+    margin: 15px;
+    background-color: rgb(27, 20, 79);
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+}
+
+#editbutton {
+    margin-left: 50px;
+}
