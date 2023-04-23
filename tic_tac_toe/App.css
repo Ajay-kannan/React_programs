@@ -1,0 +1,86 @@
+.box {
+    background-color: white;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0px 0px 8px #888;
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 5em;
+    line-height: 5rem;
+    margin: 0.5rem;
+}
+
+.box:hover {
+    box-shadow: 0px 0px 16px #888;
+    transition: 0.2s;
+}
+
+.x{
+    color: red;
+}
+
+.o {
+    color: aqua;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 6rem);
+    place-items: center;
+    justify-content: center;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20rem;
+    background-color: white;
+    margin: 3rem auto;
+    box-shadow: 0px 0px 8px #888;
+    border-radius:  0.5rem;
+    font-weight: bold;
+}
+
+.score {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.x-score {
+    color: red;
+    border-bottom: 5px solid red;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.o-score {
+    color: aqua;
+    border-bottom: 5px solid aqua;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.inactive {
+    border-bottom:  5px solid transparent;
+}
+
+.reset
+{
+    border: none;
+    border-radius: 0.5rem;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    margin: 2rem auto;
+    display: block;
+}
+
+.reset:hover{
+    transform: scale(1.1);
+    transform: .2s;
+
+}
